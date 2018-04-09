@@ -20,7 +20,7 @@ namespace Max
 
         }
 
-        public string Output()
+       public override string ToString()
         {
             return a + "/" + b;
         }
